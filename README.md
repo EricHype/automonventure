@@ -1,6 +1,6 @@
 # Automonventure
 
-A silly text based adventure game written in Ruby
+A silly text based adventure game written in Ruby, it's loosely based on the crazy people I worked with at a company called "Automon". This will contain a lot of inside jokes and probably not be very funny except to like three people, but I needed someting to build to get a bit more familiar with ruby outside of just rails.
 
 ## Installation
 
@@ -18,10 +18,14 @@ Or install it yourself as:
 
     $ gem install automonventure
 
-## Usage
+## Running the app
 
-TODO: Write usage instructions here
+For debug mode
+    $ ./bin/console
 
+For normal running
+    $ ruby ./lib/automonventure.rb
+    
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
